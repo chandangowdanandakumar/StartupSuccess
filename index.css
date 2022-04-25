@@ -1,0 +1,36 @@
+body {
+    margin: 1em;
+    background-color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+.label{
+    color: #ffffff;
+}
+.input-group{
+    margin: 10px;
+}
+
+.h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.container {
+    padding: 20px;
+    /* border: 1px grey solid; */
+    /* border-radius: 10px; */
+}
+
+.form-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}   
+
+.heading {
+    padding-bottom: 20px;
+}
