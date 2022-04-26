@@ -1,7 +1,11 @@
 body {
     margin: 1em;
-    background-color: black;
+    background-color: #191A19;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+* {
+     margin: 10px;
 }
 
 .btn{
@@ -9,15 +13,16 @@ body {
 }
 
 .label{
-    color: #ffffff;
+    color: #D8E9A8;
 }
 .input-group{
     margin: 10px;
 }
 
 .h1 {
+    margin-top: 200px;
     text-align: center;
-    color: #ffffff;
+    color: #D8E9A8;
 }
 
 .container {
@@ -30,6 +35,11 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
 }   
+
+
+.btn{
+    margin: 20px;
+}
 
 .heading {
     padding-bottom: 20px;
