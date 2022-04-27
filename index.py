@@ -1,17 +1,12 @@
 from crypt import methods
 from unittest import result
-from flask import Flask
+from flask import Flask,render_template,request,send_file,send_from_directory,jsonify
 app = Flask(__name__)
 # app.config["DEBUG"] = True
 
-@app.route('/')
-def hello_world():
-  return 'Hello from Flask!'
-
-@app.route('/startup')
-def startup():
-    result = {'startup':'true'}
-    return str(result)
+@app.route('/',methods=['POST','GET'])
+def app():
+  return 'hello world'
 
 if __name__ == '__main__':
   app.run()
